@@ -1,0 +1,11 @@
+
+import '../vendor/css/reset'
+import 'angular-moment-picker/dist/angular-moment-picker.css'
+import 'angular-moment-picker/dist/themes/material-ui.css'
+import '../bower_components/bootstrap/dist/css/bootstrap.min'
+import '../bower_components/bootstrap/dist/js/bootstrap.min'
+import '../vendor/plugin/jquery.uploadifive.min'
+import '../vendor/plugin/jqpaginator.min'
+import './router'
+import './script/index'
+import './style/index'

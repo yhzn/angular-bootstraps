@@ -1,0 +1,375 @@
+
+<div class="home" ng-init="init()">
+    <div app-head></div>
+    <div class="ctr">
+        <div class="ctr-left">
+
+            <span class="glyphicon glyphicon-tint" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
+            <button type="button" class="btn btn-default" aria-label="Left Align">
+
+            <span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
+
+            </button>
+
+            <button type="button" class="btn btn-default btn-lg">
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+            </button>
+        </div>
+        <div class="ctr-right">
+            <input id="hello" class="laydate-icon">
+            <form class="bs-example bs-example-form" data-example-id="input-group-multiple-buttons">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <div class="input-group-btn">
+                                <button type="button" class="btn btn-default" aria-label="Bold"><span class="glyphicon glyphicon-bold"></span></button>
+                                <button type="button" class="btn btn-default" aria-label="Italic"><span class="glyphicon glyphicon-italic"></span></button>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Text input with multiple buttons">
+                        </div><!-- /.input-group -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control" aria-label="Text input with multiple buttons">
+                            <div class="input-group-btn">
+                                <button type="button" class="btn btn-default" aria-label="Help"><span class="glyphicon glyphicon-question-sign"></span></button>
+                                <button type="button" class="btn btn-default">Action</button>
+                            </div>
+                        </div><!-- /.input-group -->
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </form>
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Panel heading</div>
+                <div class="panel-body">
+                    <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
+                <form role="form">
+                    <div class="form-group">
+                        <label for="name">名称</label>
+                        <input type="text" class="form-control" id="name"
+                               placeholder="请输入名称">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputfile">文件输入</label>
+                        <input type="file" id="inputfile">
+                        <p class="help-block">这里是块级帮助文本的实例。</p>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> 请打勾
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">提交</button>
+                </form>
+                <!-- Table -->
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="page"></div>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Dropdown
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="header clearfix">
+                    <nav>
+                        <ul class="nav nav-pills pull-right">
+                            <li role="presentation" class="active"><a href="#">Home</a></li>
+                            <li role="presentation"><a href="#">About</a></li>
+                            <li role="presentation"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <h3 class="text-muted">Project name</h3>
+                </div>
+
+                <div class="jumbotron">
+                    <h1>Jumbotron heading</h1>
+                    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+                </div>
+
+                <div class="row marketing">
+                    <div class="col-lg-6">
+                        <h4>Subheading</h4>
+                        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+                        <h4>Subheading</h4>
+                        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+                        <h4>Subheading</h4>
+                        <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h4>Subheading</h4>
+                        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+                        <h4>Subheading</h4>
+                        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+                        <h4>Subheading</h4>
+                        <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                    </div>
+                </div>
+
+                <footer class="footer">
+                    <p>© 2016 Company, Inc.</p>
+                </footer>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-2 sidebar">
+                            <ul class="nav nav-sidebar">
+                                <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">Reports</a></li>
+                                <li><a href="#">Analytics</a></li>
+                                <li><a href="#">Export</a></li>
+                            </ul>
+                            <ul class="nav nav-sidebar">
+                                <li><a href="">Nav item</a></li>
+                                <li><a href="">Nav item again</a></li>
+                                <li><a href="">One more nav</a></li>
+                                <li><a href="">Another nav item</a></li>
+                                <li><a href="">More navigation</a></li>
+                            </ul>
+                            <ul class="nav nav-sidebar">
+                                <li><a href="">Nav item again</a></li>
+                                <li><a href="">One more nav</a></li>
+                                <li><a href="">Another nav item</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                            <h1 class="page-header">Dashboard</h1>
+
+                            <div class="row placeholders">
+                                <div class="col-xs-6 col-sm-3 placeholder">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                                    <h4>Label</h4>
+                                    <span class="text-muted">Something else</span>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 placeholder">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                                    <h4>Label</h4>
+                                    <span class="text-muted">Something else</span>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 placeholder">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                                    <h4>Label</h4>
+                                    <span class="text-muted">Something else</span>
+                                </div>
+                                <div class="col-xs-6 col-sm-3 placeholder">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                                    <h4>Label</h4>
+                                    <span class="text-muted">Something else</span>
+                                </div>
+                            </div>
+
+                            <h2 class="sub-header">Section title</h2>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Header</th>
+                                        <th>Header</th>
+                                        <th>Header</th>
+                                        <th>Header</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1,001</td>
+                                        <td>Lorem</td>
+                                        <td>ipsum</td>
+                                        <td>dolor</td>
+                                        <td>sit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,002</td>
+                                        <td>amet</td>
+                                        <td>consectetur</td>
+                                        <td>adipiscing</td>
+                                        <td>elit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,003</td>
+                                        <td>Integer</td>
+                                        <td>nec</td>
+                                        <td>odio</td>
+                                        <td>Praesent</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,003</td>
+                                        <td>libero</td>
+                                        <td>Sed</td>
+                                        <td>cursus</td>
+                                        <td>ante</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,004</td>
+                                        <td>dapibus</td>
+                                        <td>diam</td>
+                                        <td>Sed</td>
+                                        <td>nisi</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,005</td>
+                                        <td>Nulla</td>
+                                        <td>quis</td>
+                                        <td>sem</td>
+                                        <td>at</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,006</td>
+                                        <td>nibh</td>
+                                        <td>elementum</td>
+                                        <td>imperdiet</td>
+                                        <td>Duis</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,007</td>
+                                        <td>sagittis</td>
+                                        <td>ipsum</td>
+                                        <td>Praesent</td>
+                                        <td>mauris</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,008</td>
+                                        <td>Fusce</td>
+                                        <td>nec</td>
+                                        <td>tellus</td>
+                                        <td>sed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,009</td>
+                                        <td>augue</td>
+                                        <td>semper</td>
+                                        <td>porta</td>
+                                        <td>Mauris</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,010</td>
+                                        <td>massa</td>
+                                        <td>Vestibulum</td>
+                                        <td>lacinia</td>
+                                        <td>arcu</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,011</td>
+                                        <td>eget</td>
+                                        <td>nulla</td>
+                                        <td>Class</td>
+                                        <td>aptent</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,012</td>
+                                        <td>taciti</td>
+                                        <td>sociosqu</td>
+                                        <td>ad</td>
+                                        <td>litora</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,013</td>
+                                        <td>torquent</td>
+                                        <td>per</td>
+                                        <td>conubia</td>
+                                        <td>nostra</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,014</td>
+                                        <td>per</td>
+                                        <td>inceptos</td>
+                                        <td>himenaeos</td>
+                                        <td>Curabitur</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1,015</td>
+                                        <td>sodales</td>
+                                        <td>ligula</td>
+                                        <td>in</td>
+                                        <td>libero</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <div app-foot></div>
+</div>
+

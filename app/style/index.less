@@ -1,0 +1,37 @@
+
+@import "./templates/home";
+@import "./templates/report";
+
+
+.app-head,.app-foot{
+  height:60px;
+  border:1px solid #e3e3e3;
+  box-sizing: border-box;
+}
+
+.ctr{
+  height:calc(~'100vh - 120px');
+  border:1px solid #dddddd;
+  box-sizing: border-box;
+  overflow:hidden;
+
+  .ctr-left{
+
+    float:left;
+    width:200px;
+    height:100%;
+    border-right:1px solid #dddddd;
+    overflow:auto;
+
+  }
+
+  .ctr-right{
+
+    margin-left:202px;
+    height:100%;
+    border-left:1px solid #dddddd;
+    overflow: auto;
+
+
+  }
+}

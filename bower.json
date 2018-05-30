@@ -1,0 +1,24 @@
+{
+  "name": "angular-bootstraps",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "mao <13813813838@162.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "angular-cookies": "^1.6.7",
+    "angular-ui-router": "^1.0.11",
+    "jquery": "2.1.0",
+    "angular-moment-picker": "moment-picker#^0.10.1"
+  }
+}
